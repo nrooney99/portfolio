@@ -15,19 +15,19 @@ function Navbar() {
           <Logo width={125} height={50}/>
           <div>
             <ul className='hidden md:flex'>
-              {/* <Link href='/'>
+              <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
-              <Link href='/'>
+              {/* <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
               </Link> */}
             </ul>
@@ -49,19 +49,19 @@ function Navbar() {
 
             <div className='py-4 flex flex-col' >
               <ul>
-              {/* <Link href='/'>
+              <Link href='/'>
                 <li className='text-md uppercase py-4'>Home</li>
               </Link>
-              <Link href='/'>
+              {/* <Link href='/'>
                 <li className='text-md uppercase py-4'>About</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='text-md uppercase py-4'>Skills</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='text-md uppercase py-4'>Projects</li>
-              </Link>
-              <Link href='/'>
+              </Link> */}
+              {/* <Link href='/'>
                 <li className='text-md uppercase py-4'>Contact</li>
               </Link> */}
               </ul>
