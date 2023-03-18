@@ -15,7 +15,7 @@ function Navbar() {
           <Logo width={125} height={50}/>
           <div>
             <ul className='hidden md:flex'>
-              <Link href='/'>
+              {/* <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
               </Link>
               <Link href='/'>
@@ -29,7 +29,7 @@ function Navbar() {
               </Link>
               <Link href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-              </Link>
+              </Link> */}
             </ul>
           </div>
           <div className='md:hidden' onClick={handleNav}>
@@ -49,7 +49,7 @@ function Navbar() {
 
             <div className='py-4 flex flex-col' >
               <ul>
-              <Link href='/'>
+              {/* <Link href='/'>
                 <li className='text-md uppercase py-4'>Home</li>
               </Link>
               <Link href='/'>
@@ -63,7 +63,7 @@ function Navbar() {
               </Link>
               <Link href='/'>
                 <li className='text-md uppercase py-4'>Contact</li>
-              </Link>
+              </Link> */}
               </ul>
             </div>
 
