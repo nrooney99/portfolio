@@ -24,10 +24,13 @@ function Main() {
               <div className='flex items-center justify-between space-x-10 my-4 '>
                 <a href='https://www.linkedin.com/in/nicolas-rooney/'><FaLinkedin size='30' className='hover:scale-110 cursor-pointer'/></a>
                 <a href='https://github.com/nrooney99'><FaGithub size='30' className='hover:scale-110 cursor-pointer'/></a>
-                <div className='group flex flex-row items-center space-x-2 cursor-pointer w-[30px]' onClick={handleCopyMail}>
+                <div className='group flex-row items-center space-x-2 cursor-pointer w-[30px] hidden md:flex' onClick={handleCopyMail}>
                   <div className='w-[30px]'><AiOutlineMail size='30' className='hover:scale-110 cursor-pointer'/></div>
                   {!mailCopied && <p className='text-xs text-gray-600 font-bold whitespace-nowrap hidden group-hover:inline'>Copy address</p>}
-                  <p className={`text-xs text-gray-600 font-bold whitespace-nowrap transition-all duration-100 ${mailCopied ? "inline" : "hidden"}`}>Copied to clipboard!</p>
+                  <p className={`text-xs text-gray-600 font-bold whitespace-nowrap ${mailCopied ? "inline" : "hidden"}`}>Copied to clipboard!</p>
+                </div>
+                <div className='md:hidden'>
+                <a href='mailto:nrooney@itba.edu.ar'><AiOutlineMail size='30' className='hover:scale-110 cursor-pointer'/></a>
                 </div>
               </div>
             </div>
