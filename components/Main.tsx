@@ -15,7 +15,7 @@ function Main() {
             <div className='flex flex-col justify-center items-center h-full space-y-5'>
               {/* <p className='uppercase text-sm tracking-widest text-gray-600'>Let&apos;s build something together</p> */}
               <h1 className='text-gray-800'>Hi, I&apos;m <span className='text-indigo-600'>Nico Rooney</span></h1>
-              <h2 className='text-gray-800'>Software Developer & Industrial Engineering Student</h2>
+              <h2 className='text-gray-800 text-center'>Software Developer & <span className='inline-block'>Industrial Engineering Student</span></h2>
               <p className='py-2 text-gray-600 max-w-[80%] sm:max-w-[70%] m-auto'>
                 I am a final year student of Industrial Engineering with a passion for technology and software development. 
                 My academic background has provided me with a solid foundation in process planning, analysis, and improvement, 
