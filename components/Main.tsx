@@ -22,10 +22,10 @@ function Main() {
                 while my programming experience allows me to design and develop effective technological solutions. 
               </p>
               <div className='flex items-center justify-between space-x-10 my-4 '>
-                <a href='https://www.linkedin.com/in/nicolas-rooney/'><FaLinkedin size='32' className='hover:scale-110 cursor-pointer'/></a>
-                <a href='https://github.com/nrooney99'><FaGithub size='32' className='hover:scale-110 cursor-pointer'/></a>
-                <div className='group flex flex-row items-center space-x-2 cursor-pointer w-[32px]' onClick={handleCopyMail}>
-                  <div className='w-[30px]'><AiOutlineMail size='32' className='hover:scale-110 cursor-pointer'/></div>
+                <a href='https://www.linkedin.com/in/nicolas-rooney/'><FaLinkedin size='30' className='hover:scale-110 cursor-pointer'/></a>
+                <a href='https://github.com/nrooney99'><FaGithub size='30' className='hover:scale-110 cursor-pointer'/></a>
+                <div className='group flex flex-row items-center space-x-2 cursor-pointer w-[30px]' onClick={handleCopyMail}>
+                  <div className='w-[30px]'><AiOutlineMail size='30' className='hover:scale-110 cursor-pointer'/></div>
                   {!mailCopied && <p className='text-xs text-gray-600 font-bold whitespace-nowrap hidden group-hover:inline'>Copy address</p>}
                   <p className={`text-xs text-gray-600 font-bold whitespace-nowrap transition-all duration-100 ${mailCopied ? "inline" : "hidden"}`}>Copied to clipboard!</p>
                 </div>
