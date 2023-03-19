@@ -1,8 +1,6 @@
-import Link from 'next/link'
 import React, { useState } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import {RxClipboardCopy} from 'react-icons/rx'
 
 
 function Main() {
