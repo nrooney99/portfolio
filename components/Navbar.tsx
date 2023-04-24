@@ -70,8 +70,8 @@ function Navbar() {
             <div className='mt-40'>
               <p className='tracking-widest uppercase'>Let&apos;s connect</p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-              <a href='https://www.linkedin.com/in/nicolas-rooney/'><FaLinkedin size='25' className='hover:scale-110 cursor-pointer'/></a>
-                <a href='https://github.com/nrooney99'><FaGithub size='25' className='hover:scale-110 cursor-pointer'/></a>
+              <a href='https://www.linkedin.com/in/nicolas-rooney/' target="_blank"><FaLinkedin size='25' className='hover:scale-110 cursor-pointer'/></a>
+                <a href='https://github.com/nrooney99' target="_blank"><FaGithub size='25' className='hover:scale-110 cursor-pointer'/></a>
                 <a href='mailto:nrooney@itba.edu.ar'><AiOutlineMail size='25' className='hover:scale-110 cursor-pointer'/></a>
               </div>
             </div>
